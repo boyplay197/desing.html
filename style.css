@@ -1,58 +1,41 @@
-/* Tema: Futurista Neon
-   Cor de fundo: #0f0f23
-   Cor da fonte: #ffffff
-   Cor de destaque: #39ff14
-*/
+/* 1. Aspectos gerais */
+    body {
+      width: 960px;
+      margin: 0 auto;
+      font-family: sans-serif;
+    }
 
-body {
-  background-color: #0f0f23;
-  color: #ffffff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+    p {
+      text-indent: 1em;
+    }
 
-header {
-  background-color: #1a1a2e;
-  padding: 2rem;
-  text-align: center;
-  border-bottom: 3px solid #39ff14;
-}
+    /* 2. Títulos */
+    h1, h2, h3 {
+      text-align: center; /* Pode usar 'right' se preferir */
+    }
 
-header h1 {
-  margin: 0;
-  font-size: 2.5rem;
-  color: #39ff14;
-}
+    h1 {
+      font-size: 1.8rem;
+    }
 
-header h2 {
-  margin: 0;
-  font-size: 1.2rem;
-  color: #ffffff;
-}
+    h2 {
+      font-size: 1.4rem;
+    }
 
-main {
-  padding: 2rem;
-}
+    h3 {
+      font-size: 1.2rem;
+    }
 
-h3 {
-  color: #39ff14;
-  border-bottom: 2px solid #39ff14;
-  padding-bottom: 0.5rem;
-}
+    /* 3. Seções de resumo e principal */
+    #zen-summary {
+      text-align: center;
+    }
 
-a {
-  color: #39ff14;
-  text-decoration: none;
-}
+    #zen-preamble p {
+      line-height: 1.5;
+    }
 
-a:hover {
-  text-decoration: underline;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #1a1a2e;
-  border-top: 3px solid #39ff14;
-}
+    /* 4. Abreviaturas */
+    abbr {
+      font-variant: small-caps;
+    }
